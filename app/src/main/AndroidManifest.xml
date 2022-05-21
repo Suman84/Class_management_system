@@ -1,46 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.project.loginsignupform">
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-    <supports-screens
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true" />
+    package="com.example.myapplication">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/StudentManagementSystem"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RoutineStudents"></activity>
-        <activity android:name=".ViewAttendence" />
-        <activity android:name=".View_PDF_Files" />
-        <activity android:name=".ViewUploads" />
-        <activity android:name=".MainPDFActivity" />
-        <activity android:name=".ViewImageActivity" />
-        <activity android:name=".MainImageActivity" />
-        <activity android:name=".MainChatActivity" />
-        <activity android:name=".parents_profile" />
-        <activity android:name=".teachers_profile" />
-        <activity android:name=".Student_profile" />
-        <activity android:name=".Student"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            />
-        <activity android:name=".Parents" />
-        <activity android:name=".Admin" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".time_table_teachers" />
-        <activity android:name=".Signup_Form" />
-        <activity android:name=".doAttendance" />
-        <activity android:name=".WelcomeTeachers" />
-        <activity android:name=".Login_Form" />
-        <activity android:name=".SplashScreen"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

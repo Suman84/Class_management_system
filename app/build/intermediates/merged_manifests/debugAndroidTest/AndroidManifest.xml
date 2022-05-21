@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.project.loginsignupform.test" >
+    package="com.example.myapplication.test" >
 
     <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="28" />
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
 
     <instrumentation
-        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.project.loginsignupform"
-        android:targetPackage="com.project.loginsignupform" />
+        android:label="Tests for com.example.myapplication"
+        android:targetPackage="com.example.myapplication" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

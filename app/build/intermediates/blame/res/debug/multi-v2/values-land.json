@@ -1,35 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dell\\Desktop\\College final defense\\pdfviewfixed\\loginsignup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\dell\\Desktop\\College final defense V2\\pdfviewfixed\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-2\\files-2.1\\e291ed608b6dde8347593ca7818a5757\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-2\\files-2.1\\13fc0735bdc548a0d8fe7219ae49a5c1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-2\\files-2.1\\ba36f44c46beb49ec70c25a3ec496942\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "10",
-                        "endOffsets": "222"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "264",
-                        "endLines": "8",
-                        "endColumns": "10",
-                        "endOffsets": "431"
                     }
                 }
             ]
