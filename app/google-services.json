@@ -1,0 +1,146 @@
+{
+  "project_info": {
+    "project_number": "666713254203",
+    "firebase_url": "https://project-e07b8.firebaseio.com",
+    "project_id": "project-e07b8",
+    "storage_bucket": "project-e07b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666713254203:android:98560da1582d8239",
+        "android_client_info": {
+          "package_name": "com.minorchat.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666713254203-mg7f7hvrhdtr5je9mdfkq40nfsdqdvcj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.minorchat.chatbox",
+            "certificate_hash": "77e41a370c5115990463eca2befafd3f9e2464d5"
+          }
+        },
+        {
+          "client_id": "666713254203-kai0q1u6kel3o6p60v8upo3p86qn00e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.minorchat.chatbox",
+            "certificate_hash": "7e327b3a42d0202f81dc983164f7d92bc60e2198"
+          }
+        },
+        {
+          "client_id": "666713254203-onlkncpun5nem01qjntfejsn2mbfttp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrAHC67GjDWLZE1gNgLvZIbHhU6ZXQ--s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666713254203-onlkncpun5nem01qjntfejsn2mbfttp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666713254203:android:c161af1d9cf246b1",
+        "android_client_info": {
+          "package_name": "com.project.loginsignupform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666713254203-dctso8j2iara4ek1p8u6ch4nb1b8p9ge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.loginsignupform",
+            "certificate_hash": "24d30fc8ffa4b2c20c2445f2c4c4cc26455dba21"
+          }
+        },
+        {
+          "client_id": "666713254203-dp8bqm513al7ab3p5idc5n2ulpjj4i9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.loginsignupform",
+            "certificate_hash": "77e41a370c5115990463eca2befafd3f9e2464d5"
+          }
+        },
+        {
+          "client_id": "666713254203-h9ea06eiolm5roggttflm0dljoa85fu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.loginsignupform",
+            "certificate_hash": "7e327b3a42d0202f81dc983164f7d92bc60e2198"
+          }
+        },
+        {
+          "client_id": "666713254203-onlkncpun5nem01qjntfejsn2mbfttp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrAHC67GjDWLZE1gNgLvZIbHhU6ZXQ--s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666713254203-onlkncpun5nem01qjntfejsn2mbfttp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666713254203:android:e1c464f241a26cf7",
+        "android_client_info": {
+          "package_name": "com.project.loginsignupformandchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666713254203-b22sr4gst2fouofif0stc6pj8n2agk3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.loginsignupformandchat",
+            "certificate_hash": "7e327b3a42d0202f81dc983164f7d92bc60e2198"
+          }
+        },
+        {
+          "client_id": "666713254203-onlkncpun5nem01qjntfejsn2mbfttp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrAHC67GjDWLZE1gNgLvZIbHhU6ZXQ--s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666713254203-onlkncpun5nem01qjntfejsn2mbfttp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
