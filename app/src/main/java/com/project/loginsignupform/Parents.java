@@ -63,10 +63,7 @@ public class Parents extends AppCompatActivity {
 
                 firebaseAuth.signOut();
                 finish();
-                Intent intent =new Intent(Parents.this,Login_Form.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
+                startActivity(new Intent(Parents.this,Login_Form.class));
                // Toast.makeText(Parents.this, "Logout clicked", Toast.LENGTH_SHORT).show();
             }
         });

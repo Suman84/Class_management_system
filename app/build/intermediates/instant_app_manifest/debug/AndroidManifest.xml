@@ -33,10 +33,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.project.loginsignupform.AdminSignupAdmin" />
-        <activity android:name="com.project.loginsignupform.AdminSignupTeachers" />
-        <activity android:name="com.project.loginsignupform.AdminRecordsActivity" />
-        <activity android:name="com.project.loginsignupform.AdminManageAccountsActivity" />
         <activity android:name="com.project.loginsignupform.View_PDF_files_Submitted_assignments" />
         <activity android:name="com.project.loginsignupform.MainPDFActivityPost" />
         <activity android:name="com.project.loginsignupform.SelectChatroomActivity" />
@@ -59,8 +55,7 @@
         <activity android:name="com.project.loginsignupform.Parents" />
         <activity android:name="com.project.loginsignupform.Admin" />
         <activity android:name="com.project.loginsignupform.MainActivity" />
-        <activity android:name="com.project.loginsignupform.time_table_teachers" />
-        <activity android:name="com.project.loginsignupform.Signup_Form" />
+        <activity android:name="com.project.loginsignupform.Signup_Form_admin" />
         <activity android:name="com.project.loginsignupform.doAttendance" />
         <activity android:name="com.project.loginsignupform.WelcomeTeachers" />
         <activity android:name="com.project.loginsignupform.Login_Form" />
@@ -73,6 +68,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.project.loginsignupform.Signup_Form_student" />
+        <activity android:name="com.project.loginsignupform.AdminManageAccountsActivity" />
+        <activity android:name="com.project.loginsignupform.AdminRecordsActivity" />
+        <activity android:name="com.project.loginsignupform.AdminAddListOfStds" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
@@ -157,6 +156,11 @@
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.project.loginsignupform.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

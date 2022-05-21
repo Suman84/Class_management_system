@@ -1,6 +1,9 @@
 package com.project.loginsignupform;
 
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +11,13 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.Objects;
 
 public class Student extends AppCompatActivity {
     Button btn_studentprofile,btn_studentattendance,btn_studentroutine,btn_studentnotice,
@@ -34,9 +44,13 @@ private FirebaseAuth firebaseAuth;
         btn_studentprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String email = getIntent().getStringExtra("email");
+                int iend = email.indexOf(".");
+                String subEmail = email.substring(0,iend);
 
                 Toast.makeText(Student.this, "Profile clicked", Toast.LENGTH_SHORT).show();
-                openStudentProfile();
+                Intent intent = new Intent(Student.this, Student_profile.class).putExtra("email1", subEmail);
+                startActivity(intent);
             }
         });
 
@@ -65,7 +79,7 @@ private FirebaseAuth firebaseAuth;
         btn_studentnotice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Student.this, ViewImageActivity.class);
+                Intent i = new Intent(Student.this, ViewImageActivity.class).putExtra("string","uploads_notice");
                 startActivity(i);
                 Toast.makeText(getApplicationContext(),"Welcome To Notice Section ! ",Toast.LENGTH_SHORT).show();
                // Toast.makeText(Student.this, "Notice clicked", Toast.LENGTH_SHORT).show();
@@ -76,7 +90,10 @@ private FirebaseAuth firebaseAuth;
         btn_studentresult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i = new Intent(Student.this, ViewImageActivity.class).putExtra("string","uploads_marks");
+                startActivity(i);
                 Toast.makeText(Student.this, "Result clicked", Toast.LENGTH_SHORT).show();
+
 
             }
         });
@@ -85,6 +102,7 @@ private FirebaseAuth firebaseAuth;
         btn_studentassignment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent i = new Intent(Student.this, MainPDFActivity.class);
                 startActivity(i);
                // Toast.makeText(getApplicationContext(),"Post or View Assignments ! ",Toast.LENGTH_SHORT).show();
@@ -96,11 +114,29 @@ private FirebaseAuth firebaseAuth;
         btn_studentchatroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Student.this, SelectChatroomActivity.class);
-                startActivity(i);
-                Toast.makeText(getApplicationContext(),"Welcome To Chat Room ! ",Toast.LENGTH_SHORT).show();
+                String email = getIntent().getStringExtra("email");
+                int iend = email.indexOf(".");
+                String subEmail =  email.substring(0,iend);
 
-              //  Toast.makeText(Student.this, "Chat room clicked", Toast.LENGTH_SHORT).show();
+               final DatabaseReference mDatabase2 = FirebaseDatabase.getInstance().getReference().child("Chatnames").child(subEmail).child(subEmail);
+                                mDatabase2.addValueEventListener(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                        String data = dataSnapshot.getValue().toString();
+                                        Intent i = new Intent(Student.this, SelectChatroomActivity.class).putExtra("Dname",data);
+                                        startActivity(i);
+
+                                    }
+
+                                    @Override
+                                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                                    }
+                                });
+
+
+
+
             }
         });
 
@@ -112,20 +148,18 @@ private FirebaseAuth firebaseAuth;
 
                 firebaseAuth.signOut();
                 finish();
-                Intent intent =new Intent(Student.this,Login_Form.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
+                startActivity(new Intent(Student.this,Login_Form.class));
                // Toast.makeText(Student.this, "Logout clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
 
+
+
+    }
+    @Override
+    public void onBackPressed() {
+
     }
 
-    public void openStudentProfile() {
-
-        Intent intent = new Intent(Student.this, Student_profile.class);
-        startActivity(intent);
-    }
 }

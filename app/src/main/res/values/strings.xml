@@ -1,6 +1,6 @@
 <resources>
     <string name="StudentManagementSystem">eKakchhya</string>
-    <string name="user_name">User Name:</string>
+    <string name="user_name">Name:</string>
     <string name="designation">Designation:</string>
     <string name="email">Email:</string>
     <string name="password">Password:</string>
@@ -27,11 +27,11 @@
         <item> Admin </item>
         <item> Teachers </item>
         <item> Student </item>
-        <item> Parents </item>
     </string-array>
 
     <string-array name="select_subject">
-        <item> Database management system</item>
+        <item> Select Subject (if teacher) </item>
+        <item> Database management system </item>
         <item> Object Oriented Analysis and Design </item>
         <item> Economics </item>
         <item> Artificial Intelligence </item>

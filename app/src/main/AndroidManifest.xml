@@ -17,10 +17,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdminSignupAdmin"></activity>
-        <activity android:name=".AdminSignupTeachers" />
-        <activity android:name=".AdminRecordsActivity" />
-        <activity android:name=".AdminManageAccountsActivity" />
         <activity android:name=".View_PDF_files_Submitted_assignments" />
         <activity android:name=".MainPDFActivityPost" />
         <activity android:name=".SelectChatroomActivity" />
@@ -43,8 +39,7 @@
         <activity android:name=".Parents" />
         <activity android:name=".Admin" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".time_table_teachers" />
-        <activity android:name=".Signup_Form" />
+        <activity android:name=".Signup_Form_admin" />
         <activity android:name=".doAttendance" />
         <activity android:name=".WelcomeTeachers" />
         <activity android:name=".Login_Form" />
@@ -57,6 +52,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Signup_Form_student" />
+        <activity android:name=".AdminManageAccountsActivity" />
+        <activity android:name=".AdminRecordsActivity" />
+        <activity android:name=".AdminAddListOfStds" />
     </application>
 
 </manifest>

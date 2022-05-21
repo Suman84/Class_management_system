@@ -20,49 +20,14 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button_addteacher"
+                android:id="@+id/button_adduser"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Add Teacher"
-                android:textColor="#ffff"
-                android:background="@drawable/button_rounded"
                 android:layout_marginBottom="20dp"
-                />
-            <Button
-                android:id="@+id/button_addadmin"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Add Admin"
-                android:textColor="#ffff"
                 android:background="@drawable/button_rounded"
-                android:layout_marginBottom="20dp"/>
+                android:text="Add User"
+                android:textColor="#ffff" />
 
-            <Button
-                android:id="@+id/button_deleteteacher"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Delete Teacher"
-                android:textColor="#ffff"
-                android:background="@drawable/button_rounded"
-                android:layout_marginBottom="20dp"/>
-
-            <Button
-                android:id="@+id/button_deletestudent"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Delete Student"
-                android:textColor="#ffff"
-                android:background="@drawable/button_rounded"
-                android:layout_marginBottom="20dp"/>
-
-            <Button
-                android:id="@+id/button_deletethisaccount"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Delete this Account"
-                android:textColor="#ffff"
-                android:background="@drawable/button_rounded"
-                android:layout_marginBottom="20dp"/>
         </LinearLayout>
     </ScrollView>
 

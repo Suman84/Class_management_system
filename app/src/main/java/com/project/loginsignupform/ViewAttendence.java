@@ -40,86 +40,237 @@ public class ViewAttendence extends AppCompatActivity {
         btn_DBMS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mUsername.clear();
                 sub = "DBMS";
+                final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ViewAttendence.this, android.R.layout.simple_list_item_1, mUsername);
+
+                final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
+                muserlist.setAdapter(arrayAdapter);
+                mDatabase.addChildEventListener(new ChildEventListener() {
+                    int i = 44;
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                        i++;
+                        String value = dataSnapshot.getValue(String.class);
+                        value = "Roll number:" + i + ". Total Days present :-  " + value;
+                        mUsername.add(value);
+                        arrayAdapter.notifyDataSetChanged();
+                    }
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+                    }
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                    }
+                });
+
+
+
             }
         });
         btn_OS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mUsername.clear();
                 sub = "Os";
+                final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ViewAttendence.this, android.R.layout.simple_list_item_1, mUsername);
+
+                final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
+                muserlist.setAdapter(arrayAdapter);
+                mDatabase.addChildEventListener(new ChildEventListener() {
+                    int i = 44;
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                        i++;
+                        String value = dataSnapshot.getValue(String.class);
+                        value = "Roll number:" + i + ". Total Days present :-  " + value;
+                        mUsername.add(value);
+                        arrayAdapter.notifyDataSetChanged();
+                    }
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+                    }
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                    }
+                });
+
+
+
             }
         });
         btn_ES.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mUsername.clear();
                 sub = "ES";
+                final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ViewAttendence.this, android.R.layout.simple_list_item_1, mUsername);
+
+                final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
+                muserlist.setAdapter(arrayAdapter);
+                mDatabase.addChildEventListener(new ChildEventListener() {
+                    int i = 44;
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                        i++;
+                        String value = dataSnapshot.getValue(String.class);
+                        value = "Roll number:" + i + ". Total Days present :-  " + value;
+                        mUsername.add(value);
+                        arrayAdapter.notifyDataSetChanged();
+                    }
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+                    }
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                    }
+                });
+
+
             }
         });
         btn_OOAD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mUsername.clear();
                 sub = "OOAD";
+                final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ViewAttendence.this, android.R.layout.simple_list_item_1, mUsername);
+
+                final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
+                muserlist.setAdapter(arrayAdapter);
+                mDatabase.addChildEventListener(new ChildEventListener() {
+                    int i = 44;
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                        i++;
+                        String value = dataSnapshot.getValue(String.class);
+                        value = "Roll number:" + i + ". Total Days present :-  " + value;
+                        mUsername.add(value);
+                        arrayAdapter.notifyDataSetChanged();
+                    }
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+                    }
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                    }
+                });
+
+
             }
         });
         btn_ECO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mUsername.clear();
                 sub = "ECO";
+                final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ViewAttendence.this, android.R.layout.simple_list_item_1, mUsername);
+
+                final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
+                muserlist.setAdapter(arrayAdapter);
+                mDatabase.addChildEventListener(new ChildEventListener() {
+                    int i = 44;
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                        i++;
+                        String value = dataSnapshot.getValue(String.class);
+                        value = "Roll number:" + i + ". Total Days present :-  " + value;
+                        mUsername.add(value);
+                        arrayAdapter.notifyDataSetChanged();
+                    }
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+                    }
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                    }
+                });
+
+
             }
         });
         btn_AI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mUsername.clear();
                 sub = "AI";
+                final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ViewAttendence.this, android.R.layout.simple_list_item_1, mUsername);
+
+                final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
+                muserlist.setAdapter(arrayAdapter);
+                mDatabase.addChildEventListener(new ChildEventListener() {
+                    int i = 44;
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                        i++;
+                        String value = dataSnapshot.getValue(String.class);
+                        value = "Roll number:" + i + ". Total Days present :-  " + value;
+                        mUsername.add(value);
+                        arrayAdapter.notifyDataSetChanged();
+                    }
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+                    }
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                    }
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                    }
+                });
+
+
             }
         });
-        final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
-        final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mUsername);
-
-        final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
         btn_refresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mUsername.clear();
+                final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(sub);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ViewAttendence.this, android.R.layout.simple_list_item_1, mUsername);
                 arrayAdapter.notifyDataSetChanged();
-            }
-        });
-
-
-        muserlist.setAdapter(arrayAdapter);
-        mDatabase.addChildEventListener(new ChildEventListener() {
-
-
-
-            int i = 44;
-            @Override
-            public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-                i++;
-                String value = dataSnapshot.getValue(String.class);
-                value = "Roll number:" + i + ". Total Days present :-  " + value;
-                mUsername.add(value);
-                arrayAdapter.notifyDataSetChanged();
-
-            }
-
-            @Override
-            public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-
-            }
-
-            @Override
-            public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
+                final ListView muserlist = (ListView) findViewById(R.id.list_of_attendence);
+                muserlist.setAdapter(arrayAdapter);
+                mUsername.clear();
             }
         });
     }

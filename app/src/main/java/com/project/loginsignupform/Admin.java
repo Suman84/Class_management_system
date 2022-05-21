@@ -33,10 +33,9 @@ public class Admin extends AppCompatActivity {
         btn_manageaccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Toast.makeText(Admin.this, "Manage account clicked", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(Admin.this, AdminManageAccountsActivity.class);
                 startActivity(i);
+                Toast.makeText(Admin.this, "Manage account clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -45,9 +44,9 @@ public class Admin extends AppCompatActivity {
         btn_studentrecord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Admin.this, "Record clicked", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(Admin.this, AdminRecordsActivity.class);
                 startActivity(i);
+                Toast.makeText(Admin.this, "Record clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -72,14 +71,15 @@ public class Admin extends AppCompatActivity {
 
                 firebaseAuth.signOut();
                 finish();
-                Intent intent =new Intent(Admin.this,Login_Form.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
+                startActivity(new Intent(Admin.this,Login_Form.class));
                // Toast.makeText(Admin.this, "Logout clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
+
+    }
+    @Override
+    public void onBackPressed() {
 
     }
 }

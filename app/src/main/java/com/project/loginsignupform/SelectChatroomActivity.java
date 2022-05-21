@@ -47,25 +47,27 @@ public class SelectChatroomActivity extends Activity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                String mDisplayName = getIntent().getStringExtra("Dname");
                 // Get the selected item text from ListView
                 //String selectedItem = (String) parent.getItemAtPosition(position);
                 if(position == 0) {
-                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "DBMS");
+                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "DBMS" + mDisplayName);
                     startActivity(intent);
                 }else if(position == 1){
-                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "ES");
+                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "EmbS"+ mDisplayName);
                     startActivity(intent);
                 }else if(position == 2){
-                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "OS");
+                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "OpSy"+ mDisplayName);
                     startActivity(intent);
                 }else if(position == 3){
-                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "OOAD");
+                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "OOAD"+ mDisplayName);
                     startActivity(intent);
                 }else if(position == 4){
-                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "ECO");
+                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "ECOm"+ mDisplayName);
                     startActivity(intent);
                 }else{
-                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "AI");
+                    Intent intent = new Intent(SelectChatroomActivity.this, MainChatActivity.class).putExtra("string", "ArIn"+ mDisplayName);
                     startActivity(intent);
                 }
             }

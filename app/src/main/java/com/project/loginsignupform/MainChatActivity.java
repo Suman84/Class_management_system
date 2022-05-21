@@ -1,7 +1,10 @@
 package com.project.loginsignupform;
 
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -12,13 +15,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.Objects;
 
 public class MainChatActivity extends AppCompatActivity {
     // TODO: Add member variables here:
 
-    private String mDisplayName;
+    public String mDisplayName;
     private ListView mChatListView;
     private EditText mInputText;
     private ImageButton mSendButton;
@@ -60,18 +68,18 @@ public class MainChatActivity extends AppCompatActivity {
     }
 
 
-    // TODO: Retrieve the display name from the Shared Preferences
     private void setupDisplayName(){
 
-        //SharedPreferences prefs = getSharedPreferences(RegisterActivity.CHAT_PREFS, MODE_PRIVATE);
-        //mDisplayName = prefs.getString(RegisterActivity.DISPLAY_NAME_KEY, null);
-        //if (mDisplayName == null)
-            mDisplayName = "Suman";
+        String data = getIntent().getStringExtra("string");
+     // data = "DBMS84Suman";
+        mDisplayName = data.substring(6);
+
     }
 
 
     private void sendMessage() {
-        String subject = getIntent().getStringExtra("string");
+        String data = getIntent().getStringExtra("string");
+        String subject = data.substring(0,4);
 
         Log.d("Chat", "I sent something");
         // TODO: Grab the text the user typed in and push the message to Firebase
@@ -87,7 +95,8 @@ public class MainChatActivity extends AppCompatActivity {
     // TODO: Override the onStart() lifecycle method. Setup the adapter here.
     @Override
     public void onStart() {
-        String subject = getIntent().getStringExtra("string");
+        String data = getIntent().getStringExtra("string");
+        String subject = data.substring(0,4);
         super.onStart();
         mAdapter = new ChatListAdapter(this, mDatabaseReference, mDisplayName, subject);
         mChatListView.setAdapter(mAdapter);

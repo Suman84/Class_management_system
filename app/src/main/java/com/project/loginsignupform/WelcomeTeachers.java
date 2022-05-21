@@ -1,6 +1,7 @@
 package com.project.loginsignupform;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +13,11 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class WelcomeTeachers extends AppCompatActivity  {
 
@@ -26,8 +31,7 @@ public class WelcomeTeachers extends AppCompatActivity  {
             btn_logout;
 
     // firebase
-    //private FirebaseAuth firebaseAuth;
-   // private FirebaseUser firebaseUser;
+    private FirebaseAuth firebaseAuth;
 
 
 
@@ -37,10 +41,7 @@ public class WelcomeTeachers extends AppCompatActivity  {
         setContentView(R.layout.activity_welcome_teachers);
         getSupportActionBar().setTitle("Welcome Teachers");
 
-        //firebaseAuth = FirebaseAuth.getInstance();
-        //FirebaseUser currentUser= firebaseAuth.getCurrentUser();
-       // updateUI(currentUser);
-       // firebaseUser = (FirebaseUser) FirebaseAuth.getCurrentUser();
+        firebaseAuth = FirebaseAuth.getInstance();
 
         btn_profile=(Button)findViewById(R.id.profilebutton);
         btn_teacherattendance=(Button)findViewById(R.id.teacherattendancebutton);
@@ -56,8 +57,11 @@ public class WelcomeTeachers extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(WelcomeTeachers.this, "Profile clicked", Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(WelcomeTeachers.this, teachers_profile.class);
+                Toast.makeText(WelcomeTeachers.this, "View Profile", Toast.LENGTH_SHORT).show();
+                String email = getIntent().getStringExtra("email");
+                int iend = email.indexOf(".");
+                String subEmail = email.substring(0,iend);
+                Intent i = new Intent(WelcomeTeachers.this, teachers_profile.class).putExtra("email1", subEmail);
                 startActivity(i);
             }
         });
@@ -67,9 +71,49 @@ public class WelcomeTeachers extends AppCompatActivity  {
         btn_teacherattendance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(WelcomeTeachers.this, "Attendance clicked", Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(WelcomeTeachers.this, doAttendance.class);
-                startActivity(i);
+                Toast.makeText(WelcomeTeachers.this, "Loading Attendance..", Toast.LENGTH_SHORT).show();
+                String email = getIntent().getStringExtra("email");
+                int iend = email.indexOf(".");
+                String subEmail =  email.substring(0,iend);
+
+                final DatabaseReference mDatabase2 = FirebaseDatabase.getInstance().getReference().child("Chatnames").child(subEmail).child(subEmail);
+                mDatabase2.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        String data = dataSnapshot.getValue().toString();
+                        String sub = data.substring(0,2);
+                        switch (sub) {
+                            case "AI":
+                                data = "AI" ;
+                                break;
+                            case "OS":
+                                data = "Os" ;
+                                break;
+                            case "EC":
+                                data = "ECO" ;
+                                break;
+                            case "OO":
+                                data = "OOAD" ;
+                                break;
+                            case "DB":
+                                data = "DBMS" ;
+                                break;
+                            case "ES":
+                                data = "ES" ;
+                                break;
+                        }
+
+                        Intent i = new Intent(WelcomeTeachers.this, doAttendance.class).putExtra("subject",data);
+                        startActivity(i);
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
+
             }
         });
 
@@ -78,7 +122,11 @@ public class WelcomeTeachers extends AppCompatActivity  {
         btn_teacherroutine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(WelcomeTeachers.this, "Routine clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(WelcomeTeachers.this, "View Attendance", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(WelcomeTeachers.this, ViewAttendence.class);
+                startActivity(i);
+
+
             }
         });
 
@@ -98,7 +146,7 @@ public class WelcomeTeachers extends AppCompatActivity  {
         btn_teacherresult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(WelcomeTeachers.this, "Result clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(WelcomeTeachers.this, "Post and view Results", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(WelcomeTeachers.this, MainImageActivityforMarks.class);
                 startActivity(i);
             }
@@ -108,7 +156,7 @@ public class WelcomeTeachers extends AppCompatActivity  {
         btn_teacherassignment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(WelcomeTeachers.this, "Assignment clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(WelcomeTeachers.this, "Give or Check Assignments", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(WelcomeTeachers.this, MainPDFActivityPost.class);
                 startActivity(i);
             }
@@ -118,6 +166,48 @@ public class WelcomeTeachers extends AppCompatActivity  {
         btn_teacherchatroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(WelcomeTeachers.this, "Loading Chatroom.....", Toast.LENGTH_SHORT).show();
+                String email = getIntent().getStringExtra("email");
+                int iend = email.indexOf(".");
+                String subEmail =  email.substring(0,iend);
+
+                final DatabaseReference mDatabase2 = FirebaseDatabase.getInstance().getReference().child("Chatnames").child(subEmail).child(subEmail);
+                mDatabase2.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        String data = dataSnapshot.getValue().toString();
+                        String sub = data.substring(0,2);
+                        switch (sub) {
+                            case "AI":
+                                data = "ArIn" + data;
+                                break;
+                            case "OS":
+                                data = "OpSy" + data;
+                                break;
+                            case "EC":
+                                data = "ECOm" + data;
+                                break;
+                            case "OO":
+                                data = "OOAD" + data;
+                                break;
+                            case "DB":
+                                data = "DBMS" + data;
+                                break;
+                            case "ES":
+                                data = "EmbS" + data;
+                                break;
+                        }
+
+                        Intent i = new Intent(WelcomeTeachers.this, MainChatActivity.class).putExtra("string",data);
+                        startActivity(i);
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
                 Toast.makeText(WelcomeTeachers.this, "Chat room clicked", Toast.LENGTH_SHORT).show();
             }
         });
@@ -127,18 +217,18 @@ public class WelcomeTeachers extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
 
-
-           // firebaseAuth.signOut();
-           // finish();
-            Intent intent =new Intent(WelcomeTeachers.this,Login_Form.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
+            firebaseAuth.signOut();
+            finish();
+            startActivity(new Intent(WelcomeTeachers.this,Login_Form.class));
                // Toast.makeText(WelcomeTeachers.this, "Logout clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
 
+
+    }
+    @Override
+    public void onBackPressed() {
 
     }
 }

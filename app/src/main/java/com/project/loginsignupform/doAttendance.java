@@ -2,6 +2,7 @@ package com.project.loginsignupform;
 
 import android.content.Intent;
 import android.os.Build;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
@@ -13,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
@@ -39,6 +41,8 @@ public class doAttendance extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_do_attendance);
         getSupportActionBar().setTitle("Attendance");
+
+        final TextView mNameofSubject = (TextView) findViewById(R.id.textViewsub);
 
         final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("listofStds");
 
@@ -103,22 +107,24 @@ public class doAttendance extends AppCompatActivity {
                 mAbsent_rollno_list.setAdapter(arrayAdapter2);
             }
         });
-        Spinner spinner = findViewById(R.id.spinner_SelectSub);
         ArrayAdapter<CharSequence> adapterSpinner = ArrayAdapter.createFromResource(doAttendance.this, R.array.select_subject, android.R.layout.simple_spinner_item);
         adapterSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapterSpinner);
-        String item = spinner.getSelectedItem().toString();
-        String sub = "os";
+        String Subject = getIntent().getStringExtra("subject");
+        String title =  "  RollNo.  Name Of Students      Sub:" + Subject;
+        mNameofSubject.setText(title);
             btn_Save.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     int j =0;
-                    for (int i2 = 45; i2 <= 61; i2++) {
+                    for (int i2 = 45; i2 <= 88; i2++) {
                             if (ListValue[j].equals(Integer.toString(i2))) {
                                 j++;
 
                             } else {
-                                final DatabaseReference mDatabase2 = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child("Os").child(String.valueOf(i2));
+                                String Subject = getIntent().getStringExtra("subject");
+                                String title =  "  RN.  Name Of Students      Sub:" + Subject;
+                                mNameofSubject.setText(title);
+                                final DatabaseReference mDatabase2 = FirebaseDatabase.getInstance().getReference().child("AttendenceInfo").child(Subject).child(String.valueOf(i2));
                                 mDatabase2.addValueEventListener(new ValueEventListener() {
                                     int i = -1;
 
@@ -143,8 +149,13 @@ public class doAttendance extends AppCompatActivity {
                                 });
                             }
                     }
-                    Intent i = new Intent(doAttendance.this, WelcomeTeachers.class);
-                    startActivity(i);
+                    Toast.makeText(doAttendance.this, "Saving.....", Toast.LENGTH_SHORT).show();
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(doAttendance.this, "Attendence Saved!", Toast.LENGTH_SHORT).show();
+                        }
+                    },3000);
                 }
             });
     }

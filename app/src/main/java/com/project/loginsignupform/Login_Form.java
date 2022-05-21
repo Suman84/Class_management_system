@@ -17,7 +17,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class Login_Form extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     EditText txtEmail;
@@ -41,20 +40,11 @@ public class Login_Form extends AppCompatActivity implements AdapterView.OnItemS
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Login_Form.this, Signup_Form.class);
+                Intent i = new Intent(Login_Form.this,Signup_Form_student.class);
                 startActivity(i);
             }
         });
-
         firebaseAuth = FirebaseAuth.getInstance();
-        /*
-        FirebaseUser currentUser= firebaseAuth.getCurrentUser();
-
-        if(currentUser != null ){
-                startActivity(new Intent(Login_Form.this, WelcomeTeachers.class));
-        }
-        */
-
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Designation, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
@@ -64,7 +54,7 @@ public class Login_Form extends AppCompatActivity implements AdapterView.OnItemS
                 String email1 = txtEmail.getText().toString().trim();
                 String password = txtPassword.getText().toString().trim();
                 String email = "a";
-                if (TextUtils.isEmpty(email1)) {
+                if (TextUtils.isEmpty(email)) {
                     Toast.makeText(Login_Form.this, "Please Enter Email !", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -85,7 +75,9 @@ public class Login_Form extends AppCompatActivity implements AdapterView.OnItemS
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
-                                    Intent intent = new Intent(Login_Form.this, WelcomeTeachers.class);
+                                    String email1 = txtEmail.getText().toString().trim();
+                                    String email = "T_" + email1;
+                                    Intent intent = new Intent(Login_Form.this, WelcomeTeachers.class).putExtra("email",email);
                                     startActivity(intent);
                                 } else {
                                     String email1 = txtEmail.getText().toString().trim();
@@ -96,7 +88,9 @@ public class Login_Form extends AppCompatActivity implements AdapterView.OnItemS
                                                 @Override
                                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                                     if (task.isSuccessful()) {
-                                                        Intent intent = new Intent(Login_Form.this, Student.class);
+                                                        String email1 = txtEmail.getText().toString().trim();
+                                                        String email = "S_" + email1;
+                                                        Intent intent = new Intent(Login_Form.this, Student.class).putExtra("email",email);
                                                         startActivity(intent);
                                                     } else {
                                                         String email1 = txtEmail.getText().toString().trim();
@@ -124,7 +118,6 @@ public class Login_Form extends AppCompatActivity implements AdapterView.OnItemS
                         });
             }
         });
-
     }
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {

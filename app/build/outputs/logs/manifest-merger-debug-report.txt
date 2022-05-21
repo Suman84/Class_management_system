@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\bb753ee580006fccd5bd5c055634f585\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\7c89b0f0ce9034406b3cd72a2e0b047e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\1e9dd02f37cd94253511f71b2911288b\AndroidManifest.xml:2:1-11:12
@@ -60,39 +60,39 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dell\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2ae37d39892076903952f7411723fe04\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\1a3aa794efc987f37d148c9b94610375\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\177d9627a25af48e6af370a13727004d\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
 	package
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:1-62:12
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:1-61:12
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:5:22-77
 supports-screens
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:7:5-11:40
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:7:5-11:40
 	android:largeScreens
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:8:9-36
 	android:smallScreens
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:10:9-36
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:10:9-36
 	android:normalScreens
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:9:9-37
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:9:9-37
 	android:xlargeScreens
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:11:9-37
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:11:9-37
 application
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:13:5-60:19
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:13:5-59:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\bb753ee580006fccd5bd5c055634f585\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\bb753ee580006fccd5bd5c055634f585\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\1e9dd02f37cd94253511f71b2911288b\AndroidManifest.xml:9:5-20
@@ -146,155 +146,151 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dell\.grad
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\842f005440051c5e6dc060047f18d7c7\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:16:9-56
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:16:9-56
 	android:roundIcon
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:19:9-40
-activity#com.project.loginsignupform.AdminSignupAdmin
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:20:9-63
-	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:20:19-51
-activity#com.project.loginsignupform.AdminSignupTeachers
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:21:9-57
-	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:21:19-54
-activity#com.project.loginsignupform.AdminRecordsActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:22:9-58
-	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:22:19-55
-activity#com.project.loginsignupform.AdminManageAccountsActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:23:9-65
-	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:23:19-62
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:19:9-40
 activity#com.project.loginsignupform.View_PDF_files_Submitted_assignments
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:24:9-74
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:20:9-74
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:24:19-71
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:20:19-71
 activity#com.project.loginsignupform.MainPDFActivityPost
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:25:9-57
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:21:9-57
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:25:19-54
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:21:19-54
 activity#com.project.loginsignupform.SelectChatroomActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:26:9-60
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:22:9-60
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:26:19-57
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:22:19-57
 activity#com.project.loginsignupform.MainImageActivityforMarks
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:27:9-63
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:23:9-63
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:27:19-60
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:23:19-60
 activity#com.project.loginsignupform.view_assignmentsActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:28:9-62
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:24:9-62
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:28:19-59
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:24:19-59
 activity#com.project.loginsignupform.RoutineStudents
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:29:9-53
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:25:9-53
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:29:19-50
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:25:19-50
 activity#com.project.loginsignupform.ViewAttendence
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:30:9-52
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:26:9-52
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:30:19-49
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:26:19-49
 activity#com.project.loginsignupform.View_PDF_Files
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:31:9-52
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:27:9-52
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:31:19-49
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:27:19-49
 activity#com.project.loginsignupform.ViewUploads
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:32:9-49
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:28:9-49
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:32:19-46
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:28:19-46
 activity#com.project.loginsignupform.MainPDFActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:33:9-53
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:29:9-53
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:33:19-50
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:29:19-50
 activity#com.project.loginsignupform.ViewImageActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:34:9-55
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:30:9-55
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:34:19-52
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:30:19-52
 activity#com.project.loginsignupform.MainImageActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:35:9-55
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:31:9-55
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:35:19-52
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:31:19-52
 activity#com.project.loginsignupform.MainChatActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:36:9-54
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:32:9-54
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:36:19-51
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:32:19-51
 activity#com.project.loginsignupform.parents_profile
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:37:9-53
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:33:9-53
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:37:19-50
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:33:19-50
 activity#com.project.loginsignupform.teachers_profile
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:38:9-54
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:34:9-54
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:38:19-51
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:34:19-51
 activity#com.project.loginsignupform.Student_profile
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:39:9-53
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:35:9-53
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:39:19-50
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:35:19-50
 activity#com.project.loginsignupform.Student
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:40:9-42:66
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:36:9-38:66
 	android:theme
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:42:13-63
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:38:13-63
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:41:13-36
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:37:13-36
 activity#com.project.loginsignupform.Parents
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:43:9-45
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:39:9-45
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:43:19-42
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:39:19-42
 activity#com.project.loginsignupform.Admin
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:44:9-43
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:40:9-43
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:44:19-40
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:40:19-40
 activity#com.project.loginsignupform.MainActivity
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:45:9-50
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:41:9-50
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:45:19-47
-activity#com.project.loginsignupform.time_table_teachers
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:46:9-57
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:41:19-47
+activity#com.project.loginsignupform.Signup_Form_admin
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:42:9-55
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:46:19-54
-activity#com.project.loginsignupform.Signup_Form
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:47:9-49
-	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:47:19-46
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:42:19-52
 activity#com.project.loginsignupform.doAttendance
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:48:9-50
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:43:9-50
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:48:19-47
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:43:19-47
 activity#com.project.loginsignupform.WelcomeTeachers
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:49:9-53
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:44:9-53
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:49:19-50
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:44:19-50
 activity#com.project.loginsignupform.Login_Form
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:50:9-48
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:45:9-48
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:50:19-45
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:45:19-45
 activity#com.project.loginsignupform.SplashScreen
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:51:9-59:20
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:46:9-54:20
 	android:theme
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:53:13-63
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:48:13-63
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:52:13-41
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:47:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:54:13-58:29
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:55:17-69
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:55:25-66
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:57:17-77
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml:57:27-74
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:52:27-74
+activity#com.project.loginsignupform.Signup_Form_student
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:55:9-57
+	android:name
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:55:19-54
+activity#com.project.loginsignupform.AdminManageAccountsActivity
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:56:9-65
+	android:name
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:56:19-62
+activity#com.project.loginsignupform.AdminRecordsActivity
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:57:9-58
+	android:name
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:57:19-55
+activity#com.project.loginsignupform.AdminAddListOfStds
+ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:58:9-56
+	android:name
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml:58:19-53
 uses-sdk
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\bb753ee580006fccd5bd5c055634f585\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\bb753ee580006fccd5bd5c055634f585\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\7c89b0f0ce9034406b3cd72a2e0b047e\AndroidManifest.xml:20:5-44
@@ -407,18 +403,18 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dell\.gradle\c
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\1a3aa794efc987f37d148c9b94610375\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\177d9627a25af48e6af370a13727004d\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\177d9627a25af48e6af370a13727004d\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\77ad13afc64375f6dfafadbe62a289d9\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dell\Desktop\College final defense V5\e-kakchhya\loginsignup\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Desktop\minor final external\eKakchhya-an online classroom\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\c5381aeef1b67477f4577964c82748cf\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\812dcf5758804b44330afaca436daf14\AndroidManifest.xml:23:5-79
